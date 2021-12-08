@@ -1,0 +1,393 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1140px;
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/*HEADER*/
+#header {
+    position: absolute;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo-text {
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+nav a {
+    margin: 0 15px;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+}
+
+    .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.end-block {
+    display: flex;
+    align-items: center;
+}
+
+.lang {
+    margin: 0 10px;
+}
+
+.header-btn {
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    text-align: center;
+    text-transform: uppercase;
+    background: transparent;
+    color: #FFFFFF;
+    padding: 8px 10px;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 6px;
+    margin: 0 10px;
+
+}
+
+/*HEADER*/
+
+
+/*HERO*/
+#hero {
+    background: url("../img/Bg.png") no-repeat center/cover;
+    min-height: 100vh;
+}
+
+.hero {
+  text-align: center;
+    padding-top: 300px;
+}
+
+.hero-title {
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 86px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    text-align: center;
+
+    color: #FFFFFF;
+
+
+}
+
+.hero-subtitle {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 150%;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+
+.hero-btn {
+    background: #FFFFFF;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    width: 160px;
+    height: 50px;
+    text-transform: uppercase;
+    color: #ED4C5C;
+}
+
+/*HERO*/
+
+
+/*MANAGEMENT*/
+#management {
+    margin-top: 100px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.left-block {
+    width: 50%;
+}
+
+.right-block {
+    position: relative;
+    width: 50%;
+}
+
+
+.man-title {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 43px;
+    margin-bottom: 15px;
+    color: #000000;
+}
+
+.man-subtitle {
+    font-size: 14px;
+    line-height: 140%;
+    /* or 20px */
+    width: 445px;
+    text-align: justify;
+    margin-bottom: 25px;
+    color: #000000;
+}
+
+.man-link {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140%;
+    /* identical to box height, or 20px */
+    text-align: justify;
+
+    color: #ED4C5C;
+}
+
+.man-video {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 66px;
+    top: 122px;
+    left: -30px;
+    height: 66px;
+    border-radius: 50%;
+    background: #ED4C5C;
+}
+
+.pley-btn {
+    margin: auto;
+    width: 18px;
+    height: 18px;
+}
+
+/*MANAGEMENT*/
+.wrapper {
+    position: relative;
+    width: 50px;
+    height: 50px;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.line {
+    position: absolute;
+    height: 2px;
+    width: 50px;
+    top: 15px;
+    background: #000000;
+}
+
+.line:before {
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: 50px;
+    background: #000000;
+    top: 10px;
+}
+
+.line:after {
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: 50px;
+    background: #000000;
+    bottom: 10px;
+}
+
+.hover-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #101010;
+}
+
+.hover-subtitle {
+    font-size: 12px;
+    line-height: 150%;
+    /* or 18px */
+    text-align: center;
+    color: #101010;
+}
+
+.hover-link {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 150%;
+    /* identical to box height, or 18px */
+    text-align: center;
+    color: #ED4C5C;
+}
+
+.hover {
+    opacity: 0.1;
+    background: #FFFFFF;
+    box-shadow: 0 5px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    width: 293px;
+    height: 198px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+}
+
+.card:hover .hover {
+    opacity: 1;
+    transition: 0.7s;
+    transform: translateY(-100px);
+}
+#technology {
+    padding-bottom: 100px;
+}
+
+.tech-num {
+    font-weight: bold;
+    font-size: 100px;
+    line-height: 120px;
+    /* identical to box height */
+
+    text-align: center;
+    color: rgba(16, 16, 16, 0.08);
+}
+.text {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 43px;
+    text-align: center;
+    margin: auto;
+
+   color: #000000;
+}
+.tech-blok {
+    text-align: center;
+    margin-top: -60px;
+}
+.tech-subtitle {
+    width: 191px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+.tech-title {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #101010;
+
+}
+.tech {
+    width: 25%;
+}
+/*CTAY*/
+#stay {
+    background: #ED4C5C;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.stay-title {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 43px;
+    margin-bottom: 50px;
+    color: #FFFFFF;
+
+}
+.stay-subtitle {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140%;
+    /* or 20px */
+    margin-bottom: 30px;
+    text-align: justify;
+
+    color: #FFFFFF;
+}
+.fa-google-play, .fa-app-store, .fa-windows{
+    color: #ffffff;
+}
+.video-images {
+    display: flex;
+}
+.row {
+    display: flex;+
+}
+
+/*CTAY*/
+/*CONTACT*/
+#contact {
+    padding-top: 100px;
+}
+.contact-name {
+    border: 1px solid #333333;
+    box-sizing: border-box;
+    border-radius: 6px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    padding: 10px 40px;
+    color: rgba(19, 39, 67, 0.5);
+    margin-bottom: 20px;
+}
+.contact-Phone {
+    border: 1px solid #333333;
+    box-sizing: border-box;
+    border-radius: 6px;
+    padding: 10px 200px;
+    margin-bottom: 20px;
+}
+.contact-celect {
+    border: 1px solid #333333;
+    box-sizing: border-box;
+    border-radius: 6px;
+    padding: 10px 200px;
+}
+.contact-btn {
+    background: #ED4C5C;
+    border: 1.5px solid #ED4C5C;
+    box-sizing: border-box;
+    border-radius: 6px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+/*CONTACT*/
